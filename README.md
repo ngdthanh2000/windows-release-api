@@ -2,9 +2,10 @@
 A RESTful API for Windows release information.
 
 ## Get all Windows release information
-- **Endpoint:** `GET https://windows-release.azurewebsites.net/windows.json`
+- **Endpoint:** **GET** `https://windows-release.azurewebsites.net/windows.json`
+- **Supported products**: Windows 10, Windows 11.
 - **Request parameters**: No.
-- **Responses**: an array. Each element contains the information about a Windows product (10/11), its release information URL, and a list of its versions.
+- **Responses**: an array. Each element contains the information about a Windows product, its release information URL, and a list of its versions.
 
 | Key                   | Value type               | Description                                                          |
 | ---                   |  ---                     |    ---                                                               |
